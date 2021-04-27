@@ -1,0 +1,26 @@
+{
+  "name": "test-simple-nav",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --port 3000 --open",
+    "dev": "npm run clean && npm run start",
+    "build": "parcel build index.html --public-url ./ --no-source-maps",
+    "clean": "rm -rf ./.cache ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarlevel/test-simple-nav.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarlevel/test-simple-nav/issues"
+  },
+  "homepage": "https://github.com/cesarlevel/test-simple-nav#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
